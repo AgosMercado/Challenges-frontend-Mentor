@@ -1,4 +1,4 @@
-body{
+body, .style-container{
   width: 100vw;
   height: 100vh;
   margin: 0px;
@@ -10,44 +10,44 @@ body{
 
 
 } */
-.style-col{
+/* .style-col{
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   height: 100vh;
-}
+} */
 .cardMain{
   background-color: white;
   border-radius: 4%;
-  width: 18vw;
-  height: 65vh;
+  /* width: 18vw;
+  height: 65vh; */
 }
-/* .container-img{
-  background-color: #2B7EFA;
-  width: 18vw;
-  height: 35vh;
-  border-radius: 4%;
-  margin-top: 0.9rem;
-} */
 .style-qr{
   margin-top: 0.9rem;
-  width: 16vw;
+  width: auto;
   height: 37vh;
   border-radius: 4%;
 }
 .container-text-1{
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'Outfit', sans-serif;
-  padding: 10px 18px 10px 18px;
+  padding: 10px 22px 10px 22px;
   font-weight:900;
   color:hsl(218, 44%, 22%);
 }
 
 .container-text-2{
   color: hsl(220, 15%, 55%);
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Outfit', sans-serif;
-  padding: 3px 17px 10px 17px;
+  padding: 3px 18px 12px 18px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
   font-weight:400;
+}
+@media screen and (max-width: 740px){
+  .style-qr{
+    width: 73vw;
+  }
 }
